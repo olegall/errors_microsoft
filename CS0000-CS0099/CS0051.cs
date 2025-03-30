@@ -14,6 +14,7 @@ namespace C__Errors
             // Try making B public since F is public
             // B is implicitly private here.
             class B
+            //public class B
             {
             }
 

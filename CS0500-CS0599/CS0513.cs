@@ -12,5 +12,10 @@ namespace C__Errors.CS0500_CS0599
         {
             abstract public void f();   // CS0513, abstract member of nonabstract class  
         }
+
+        abstract class clx2
+        {
+            public void f() { }
+        }
     }
 }

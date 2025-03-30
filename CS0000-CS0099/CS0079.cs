@@ -38,24 +38,30 @@ namespace C__Errors
                 if (_e != null)
                 {
                     Pow();   // CS0079  
-                             // try the following line instead  
-                             // _e();  
+                    // try the following line instead  
+                    _e();
                 }
             }
 
             public static void Main()
             {
                 Class1 p = new Class1();
+
                 p.Pow += new MyEventHandler(p.Handler);
                 p._e();
+
                 p.Pow += new MyEventHandler(p.Handler);
                 p._e();
+
                 p._e -= new MyEventHandler(p.Handler);
+
                 if (p._e != null)
                 {
                     p._e();
                 }
+
                 p.Pow -= new MyEventHandler(p.Handler);
+
                 if (p._e != null)
                 {
                     p._e();

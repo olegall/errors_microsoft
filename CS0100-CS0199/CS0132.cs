@@ -11,16 +11,14 @@ namespace C__Errors
     {
         public class MyClass
         {
-            public MyClass(int i)
-            {
-            }
+            public MyClass(int i) {}
+            //public MyClass() {}
         }
 
         public class MyClass2 : MyClass
         {
-            static MyClass2(int i)   // CS0132  
-            {
-            }
+            //static MyClass2(int i) { }   // CS0132  
+            MyClass2(int i) : base(1) { }
         }
     }
 }

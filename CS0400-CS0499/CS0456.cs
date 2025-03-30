@@ -15,7 +15,8 @@ namespace C__Errors.CS0400_CS0499
         // compile with: /target:library  
         public class GenericsErrors
         {
-            public class G5<T> where T : struct
+            //public class G5<T> where T : struct
+            public class G5<T> where T : class
             {
                 public class N<U> where U : T { }   // CS0456  
                 public class N2<U> where U : struct { }   // OK  

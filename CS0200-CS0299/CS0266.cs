@@ -25,7 +25,7 @@ namespace C__Errors
                 object obj = new MyClass();
 
                 // The following assignment statement causes error CS0266.
-                MyClass myClass = obj; // наследник не знает о базовом классе?
+                MyClass myClass = obj;
 
                 // You can resolve the error by using an explicit conversion.
                 MyClass c = (MyClass)obj;

@@ -11,8 +11,8 @@ namespace C__Errors.CS0500_CS0599
         abstract public class clx
         {
             abstract public void f() { }   // CS0500  
-                                           // try the following line instead  
-                                           // abstract public void f();  
+            // try the following line instead  
+            // abstract public void f();  
         }
 
         public class cly

@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace C__Errors
 {
-
     internal class CS0068
     {
         // CS0068.cs  
@@ -16,13 +15,14 @@ namespace C__Errors
         interface I
         {
             event MyDelegate d = new MyDelegate(M.f);   // CS0068  
-                                                        // try the following line instead  
-                                                        // event MyDelegate d2;  
+            // try the following line instead  
+            // event MyDelegate d2;
         }
 
         class M
         {
             event MyDelegate d = new MyDelegate(M.f);
+            //event MyDelegate d2 = new MyDelegate();
 
             public static void f()
             {

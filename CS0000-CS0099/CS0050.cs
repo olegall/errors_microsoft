@@ -10,8 +10,8 @@ namespace C__Errors
     {
         // CS0050.cs
         class MyClass // Accessibility defaults to private.
-                      // Try the following line instead.
-                      // public class MyClass
+        // Try the following line instead.
+        // public class MyClass
         {
         }
 

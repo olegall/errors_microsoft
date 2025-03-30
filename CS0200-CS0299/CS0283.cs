@@ -16,7 +16,8 @@ namespace C__Errors
         {
             // To resolve the error but retain the "const-ness",  
             // change const to readonly.  
-            const MyTest test = new MyTest();   // CS0283  
+            //const MyTest test = new MyTest();   // CS0283  
+            //const MyTest test = null;   // CS0283  
 
             public static int Main()
             {

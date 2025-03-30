@@ -20,6 +20,7 @@ namespace C__Errors.CS0300_CS0399
 
         // Compile with: /target:library.  
         class C<T>
+        //class C<T> where T : new()
         {
             public void ExampleMethod()
             {

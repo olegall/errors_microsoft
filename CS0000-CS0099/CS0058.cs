@@ -16,6 +16,7 @@ namespace C__Errors
         }
 
         public delegate MyClass MyClassDel();   // CS0058  
+        //public delegate MyClass MyClass();
 
         public class A
         {

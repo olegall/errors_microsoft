@@ -1,4 +1,6 @@
-﻿namespace C__Errors
+﻿using System;
+
+namespace C__Errors
 {
     internal class CS0249
     {

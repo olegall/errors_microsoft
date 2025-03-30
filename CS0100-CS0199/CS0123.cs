@@ -11,6 +11,7 @@ namespace C__Errors
     {
         // CS0123.cs  
         delegate void D();
+
         delegate void D2(int i);
 
         public class C
@@ -21,6 +22,9 @@ namespace C__Errors
             {
                 D d = new D(f);   // CS0123  
                 D2 d2 = new D2(f);   // OK  
+                d2 += f;
+                d2 -= f;
+                d2(1);
             }
         }
     }

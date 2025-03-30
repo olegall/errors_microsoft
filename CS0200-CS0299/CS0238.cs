@@ -21,8 +21,10 @@ namespace C__Errors
             }
 
             public sealed void f() // CS0238  
-                                   // Try the following definition instead:  
-                                   // public override sealed void f()  
+            // Try the following definition instead:  
+            // public override sealed void f()  
+            //new void f()
+            //void f()
             {
             }
         }

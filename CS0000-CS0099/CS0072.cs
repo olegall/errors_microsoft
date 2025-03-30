@@ -15,6 +15,7 @@ namespace C__Errors
         class Test1
         {
             public virtual event MyDelegate MyEvent;
+
             public virtual void VMeth()
             {
             }
@@ -29,8 +30,8 @@ namespace C__Errors
         class Test2 : Test1
         {
             public override event MyDelegate VMeth   // CS0072
-                                                     // Uncomment the following lines to resolve.
-                                                     // public override event MyDelegate MyEvent
+            // Uncomment the following lines to resolve.
+            // public override event MyDelegate MyEvent
             {
                 add
                 {

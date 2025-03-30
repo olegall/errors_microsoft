@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace C__Errors
 {
-
     internal class CS0060
     {
         // CS0060.cs  

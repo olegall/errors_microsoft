@@ -6,19 +6,22 @@ using System.Threading.Tasks;
 
 namespace C__Errors
 {
-    // CS0059.cs  
-    class MyClass //defaults to private accessibility  
-                  // try the following line instead  
-                  // public class MyClass  
+    internal class CS0059
     {
-    }
-
-    public delegate void MyClassDel(MyClass myClass);   // CS0059  
-
-    public class Program
-    {
-        public static void Main()
+        // CS0059.cs  
+        class MyClass //defaults to private accessibility  
+        // try the following line instead  
+        // public class MyClass  
         {
+        }
+
+        public delegate void MyClassDel(MyClass myClass);   // CS0059  
+
+        public class Program
+        {
+            public static void Main()
+            {
+            }
         }
     }
 }

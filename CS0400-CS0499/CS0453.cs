@@ -25,5 +25,6 @@ namespace C__Errors.CS0400_CS0499
 
         // CS0453: HV is based on Nullable type of int
         public class H5 : HV<Nullable<Nullable<int>>> { }
+        public class H6 : HV<> { }
     }
 }

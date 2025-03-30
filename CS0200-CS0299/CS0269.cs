@@ -18,6 +18,7 @@ namespace C__Errors
             {
                 // The following line causes a compiler error because no value  
                 // has been assigned to i.  
+                //i = 1;
                 int k = i;  // CS0269  
                 i = 1;
                 // The error does not occur if the order of the two previous

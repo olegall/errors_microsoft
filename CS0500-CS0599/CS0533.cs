@@ -11,15 +11,13 @@ namespace C__Errors.CS0500_CS0599
         abstract public class a
         {
             abstract public void f();
+            //virtual public void f() { }
         }
 
         abstract public class b : a
         {
             new abstract public void f();   // CS0533  
-            // try the following lines instead  
-            // override public void f()  
-            // {  
-            // }  
+            //override public void f(){}  // try the following lines instead
 
             public static void Main()
             {

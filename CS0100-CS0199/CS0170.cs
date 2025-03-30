@@ -12,6 +12,7 @@ namespace C__Errors
         public struct error
         {
             public int i;
+            //public int i = 0;
         }
 
         public class MyClass

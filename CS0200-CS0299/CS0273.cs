@@ -14,10 +14,11 @@ namespace C__Errors
         {
             internal int Property
             {
-                get { return 0; }
+                //get { return 0; }
+                //public get { return 0; }
                 internal set { }   // CS0273
                 // try the following line instead
-                // private set {}
+                 //private set {}
             }
         }
     }

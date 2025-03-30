@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace C__Errors
 {
 
-    internal class CS0075
+    internal class CS0077
     {
         class C
         {
@@ -32,6 +32,9 @@ namespace C__Errors
                 // CS0077, S is not a reference type.  
                 // Try the following line instead.  
                 // c = o1 as C;  
+
+                object o3 = new C(); // всё что кроме object - объекты, поэтому cast не нужен
+                C c3 = (C)new object(); // C нужно свой (подходящий, совместимый) объект
             }
         }
     }

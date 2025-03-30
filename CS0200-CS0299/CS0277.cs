@@ -12,6 +12,7 @@ namespace C__Errors
         public interface MyInterface
         {
             int Property
+            //public int Property
             {
                 get;
                 set;

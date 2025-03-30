@@ -11,8 +11,10 @@ namespace C__Errors
     {
         // Non-static field.
         public int i;
+
         // Non-static method.
         public void f() { }
+
         // Non-static property.
         int Prop
         {
@@ -25,7 +27,10 @@ namespace C__Errors
         public static void Main()
         {
             i = 10;   // CS0120
+            new MyClass().i = 10;
+
             f();   // CS0120
+
             int p = Prop;   // CS0120
         }
     }

@@ -19,6 +19,7 @@ namespace C__Errors
                 try
                 {
                     throw;   // CS0156  
+                    //throw new Exception();
                 }
 
                 catch (MyClass2)

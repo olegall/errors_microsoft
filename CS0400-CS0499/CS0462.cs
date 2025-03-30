@@ -14,6 +14,7 @@ namespace C__Errors.CS0400_CS0499
         {
             public virtual void F(T t) { }
             public virtual void F(int t) { }
+            //public virtual void F(double t) { }
         }
 
         class D : C<int>

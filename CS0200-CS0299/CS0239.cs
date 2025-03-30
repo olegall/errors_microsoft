@@ -28,8 +28,8 @@ namespace C__Errors
         class MyClass3 : MyClass2
         {
             public override void f()   // CS0239  
-                                       // Try the following definition instead:  
-                                       // public new void f()  
+            // Try the following definition instead:  
+            // public new void f()  
             {
             }
         }

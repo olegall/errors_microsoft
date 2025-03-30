@@ -26,8 +26,8 @@ namespace C__Errors
 
                 // Compiler cannot choose between int and long.
                 switch (a)   // CS0151
-                             // try the following line instead
-                             // switch ((int)a)
+                // try the following line instead
+                //switch ((int)a)
                 {
                     case 1:
                         break;

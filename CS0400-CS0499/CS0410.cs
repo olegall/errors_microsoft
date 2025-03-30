@@ -15,6 +15,9 @@ namespace C__Errors.CS0400_CS0499
         {
             delegate void D(double d);
             static void F(int i) { }
+            
+            //delegate void D(int d); // автоматического каста в делегатах нет
+            //static void F(double i) { }
 
             static void Main()
             {

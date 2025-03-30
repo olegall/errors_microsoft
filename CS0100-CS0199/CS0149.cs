@@ -18,8 +18,8 @@ namespace C__Errors
             public static void Main()
             {
                 dt = new MyDelegate(17.45);   // CS0149  
-                                              // try the following line instead  
-                                              // dt = new MyDelegate(Func2);  
+                // try the following line instead  
+                dt = new MyDelegate(Func2);  
                 F(dt);
             }
 

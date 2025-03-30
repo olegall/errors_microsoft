@@ -12,6 +12,7 @@ namespace C__Errors
         {
             void M1();
             void M2();
+            public abstract void M3();
         }
 
         public class MyClass : I
@@ -38,5 +39,39 @@ namespace C__Errors
         }
 
         public readonly class ReadonlyClass { }   // CS0106
+
+        public abstract class MyClass2 : I
+        {
+            void I.M1() { }
+            void I.M2() { }
+            public abstract void M3();
+        }
+
+        public abstract class MyClass3 : MyClass2 
+        {
+            //public abstract void M3();
+            public override void M3() { }
+            //public new void M3() { }
+        }
+        
+        public abstract class MyClass4 : MyClass3 
+        {
+            public override void M3() { }
+        }
+        
+        public abstract class MyClass5 : MyClass4
+        {
+            public new void M3() { }
+        }
+        
+        public abstract class MyClass6 : MyClass5
+        {
+            public new void M3() { }
+        }
+        
+        public abstract class MyClass7 : MyClass6
+        {
+            //public override void M3() { }
+        }
     }
 }

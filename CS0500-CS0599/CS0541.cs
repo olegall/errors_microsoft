@@ -15,7 +15,8 @@ namespace C__Errors.CS0500_CS0599
 
         interface IFace2 : IFace
         {
-            void IFace.F();   // CS0541  
+            //void IFace.F();   // CS0541  
+            void IFace.F() { }
         }
     }
 }

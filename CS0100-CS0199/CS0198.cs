@@ -14,10 +14,16 @@ namespace C__Errors
         class MyClass
         {
             public static readonly int TestInt = 6;
+            //public static int TestInt = 6;
 
             MyClass()
             {
                 TestInt = 11;   // CS0198, constructor is not static and readonly field is  
+            }
+            
+            static MyClass()
+            {
+                TestInt = 11;
             }
 
             public static void Main()

@@ -15,9 +15,10 @@ namespace C__Errors
         abstract class Test
         {
             public abstract event D e = null;   // CS0074  
-                                                // try the following line instead  
-                                                // public abstract event D e;  
-
+            // try the following line instead  
+            // public abstract event D e;  
+            //public event D e2 = null;
+            
             public static void Main()
             {
             }

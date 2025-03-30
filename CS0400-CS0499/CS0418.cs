@@ -17,6 +17,8 @@ namespace C__Errors.CS0400_CS0499
         {
         }
 
+        //static class A { } static class B : A { }
+
         public class MyClass
         {
             public static void Main()

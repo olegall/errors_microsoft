@@ -33,9 +33,10 @@ namespace C__Errors
             {
                 EventHandler eh = new EventHandler(A.OnClick);
                 A a = new A();
-                eh = a.Click;   // CS0070  
-                                // try the following line instead  
-                                // a.Click += eh;  
+                //eh = a.Click;   // CS0070  
+                // try the following line instead  
+                 a.Click += eh;
+                //eh();
                 return 1;
             }
         }

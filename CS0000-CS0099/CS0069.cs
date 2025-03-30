@@ -14,7 +14,8 @@ namespace C__Errors
         public interface a
         {
             event EventHandler Click { remove { } }   // CS0069  
-            event EventHandler Click2;   // OK  
+            event EventHandler Click2 { add { } remove { } }   // CS0069  
+            event EventHandler Click3;   // OK  
         }
     }
 }

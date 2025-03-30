@@ -16,6 +16,7 @@ namespace C__Errors
                 {
                     char i = 'a';   // CS0136, hides int i  
                 }
+                //int i = 0;
                 i++;
             }
         }

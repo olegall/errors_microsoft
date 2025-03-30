@@ -15,8 +15,8 @@ namespace C__Errors.CS0400_CS0499
             {
                 get;
                 private set;   // CS0442  
-                               // Try this instead:  
-                               // set;  
+                // Try this instead:  
+                // set;  
             }
         }
     }

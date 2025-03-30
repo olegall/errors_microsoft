@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace C__Errors
 {
-
     internal class CS0065
     {
         public delegate void EventHandler(object sender, int e);

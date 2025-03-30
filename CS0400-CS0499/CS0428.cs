@@ -8,6 +8,12 @@ namespace C__Errors.CS0400_CS0499
 {
     internal class CS0428
     {
+        public class ExampleClass
+        {
+            public int Method1() { return 1; }
+            public static ExampleClass Method2() { return null; }
+        }
+
         class Program
         {
             delegate int Del1();
@@ -30,6 +36,7 @@ namespace C__Errors.CS0400_CS0499
                 // You can invoke Method1 and assign the int that is returned to
                 // integer variable i.  
                 i = ec.Method1();
+                //i = ec.Method1;
 
                 // The following assignment statement causes compiler error CS0428.  
                 // It attempts to assign the address of Method2 to an instance of
@@ -46,10 +53,6 @@ namespace C__Errors.CS0400_CS0499
             }
         }
 
-        public class ExampleClass
-        {
-            public int Method1() { return 1; }
-            public static ExampleClass Method2() { return null; }
-        }
+
     }
 }

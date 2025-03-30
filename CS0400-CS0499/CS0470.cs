@@ -17,6 +17,7 @@ namespace C__Errors.CS0400_CS0499
         {
             public int get_P() { return 0; }   // CS0470  
             public int P2 { get { return 0; } }   // OK  
+            public int P { get { return 0; } }   // OK  
         }
     }
 }

@@ -32,6 +32,8 @@ namespace C__Errors.CS0500_CS0599
         public class cly : clx
         {
             protected internal override void f() { }   // CS0507  
+            //private internal override void f() { }
+            //public internal override void f() { }
             // try the following line instead  
             // protected override void f() {}   // OK  
 
