@@ -1,4 +1,4 @@
-﻿using System;
+﻿
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +11,7 @@ namespace C__Errors.CS1100_CS1199
     {
         public struct S
         {
-            public override string ToString() { return "S::ToString"; }
+            public override string ToString() { return "S::ToString"; } // TODO смысл override - что метод того же класса
         }
 
         public class A

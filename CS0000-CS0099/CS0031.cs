@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace C__Errors
+﻿namespace C__Errors
 {
     // CS0031.cs
     namespace CS0031

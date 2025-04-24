@@ -8,7 +8,7 @@ namespace _8177
         public class Enumerator
         {
             public ref int Current => throw new System.NotImplementedException();
-            public bool MoveNext() => throw new System.NotImplementedException();
+            public bool MoveNext() => throw new System.NotImplementedException(); // TODO
         }
 
         public Enumerator GetEnumerator() => new Enumerator();
@@ -18,7 +18,7 @@ namespace _8177
     {
         public async static Task Test()
         {
-            await Task.CompletedTask;
+            await Task.CompletedTask; // TODO
 
             foreach (ref int x in new E())
             {

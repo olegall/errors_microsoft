@@ -5,7 +5,7 @@ class Program
     ref int M(ref long i)
     {
         return ref i;
-    }
+    }                       
 }
 
 class Program

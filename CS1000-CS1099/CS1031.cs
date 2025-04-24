@@ -1,4 +1,4 @@
-﻿using System;
+﻿
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -26,6 +26,7 @@ namespace C__Errors.CS1000_CS1100
                 e = new base;   // CS1031, not a type  
                 e = new this;   // CS1031, not a type  
                 e = new();     // CS1031, not a type  
+                var a1 = new();
             }
         }
     }

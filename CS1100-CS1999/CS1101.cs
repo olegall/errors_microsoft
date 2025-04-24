@@ -1,4 +1,4 @@
-﻿using System;
+﻿
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,6 +13,7 @@ namespace C__Errors.CS1100_CS1199
         public static class Extensions
         {
             public static void Test(ref this int i) { } // CS1101
+            public static void Test2(ref int i) { }
         }
     }
 }

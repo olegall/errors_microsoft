@@ -1,4 +1,4 @@
-﻿using System;
+﻿
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +10,7 @@ namespace C__Errors
     namespace x
     {
         // A namespace can be placed within another namespace.
-        using System;
+        
 
         // These variables trigger the CS0116 error as they are declared outside of a struct or class.
         public int latitude;

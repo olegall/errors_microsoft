@@ -15,5 +15,6 @@ class C
     {
         int i = 0;
         for (ref int rx = ref i; i < 5; i++) { }
+        //for (ref int rx = ref i; rx < 5; rx++) { } TODO
     }
 }

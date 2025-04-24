@@ -1,4 +1,4 @@
-﻿using System;
+﻿
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.CompilerServices;
@@ -14,6 +14,7 @@ namespace C__Errors.CS0600_CS0699
         class TestClass
         {
             private volatile long i;   // CS0677  
+            private volatile int i2;
 
             public static void Main()
             {

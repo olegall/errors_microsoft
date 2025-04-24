@@ -1,4 +1,4 @@
-﻿using System;
+﻿
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,6 +20,7 @@ namespace C__Errors.CS1100_CS1199
             public void Method()
             {
                 base.j = 3;   // base allowed here  
+                //this.j = 3; // aleek
             }
 
             public static int StaticMethod()

@@ -1,4 +1,4 @@
-﻿using System;
+﻿
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,13 +13,13 @@ namespace C__Errors
             public abstract int f();
         }
 
-        abstract public class MyClass2 //: MyClass1
+        abstract public class MyClass2 : MyClass1
         {
             //public override int f()   // CS0115
-            public int f()   // CS0115
-            {
-                return 0;
-            }
+            //public int f()   // CS0115
+            //{
+            //    return 0;
+            //}
 
             public static void Main()
             {

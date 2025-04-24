@@ -1,5 +1,5 @@
 ﻿// cs1940.cs  
-using System; //must include explicitly for types defined in 3.5  
+ //must include explicitly for types defined in 3.5  
 namespace _1940
 {
     class Test
